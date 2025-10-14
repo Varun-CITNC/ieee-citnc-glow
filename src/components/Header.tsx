@@ -1,6 +1,6 @@
 import { Menu } from "lucide-react";
 import { Button } from "./ui/button";
-import ieeeLogo from "@/assets/ieee-logo-new.png";
+import ieeeLogo from "@/assets/ieee-logo.png";
 import citncLogo from "@/assets/citnc-logo.png";
 
 const Header = () => {
@@ -31,6 +31,9 @@ const Header = () => {
             </a>
             <a href="#about" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               About
+            </a>
+            <a href="#events" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+              Events
             </a>
             <a href="#team" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               Team
