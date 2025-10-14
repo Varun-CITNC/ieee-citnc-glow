@@ -1,6 +1,7 @@
 import { Menu } from "lucide-react";
 import { Button } from "./ui/button";
-import ieeeLogo from "@/assets/ieee-logo.png";
+import ieeeLogo from "@/assets/ieee-logo-new.png";
+import citncLogo from "@/assets/citnc-logo.png";
 
 const Header = () => {
   return (
@@ -11,6 +12,11 @@ const Header = () => {
             <img 
               src={ieeeLogo} 
               alt="IEEE Logo" 
+              className="h-12 w-auto"
+            />
+            <img 
+              src={citncLogo} 
+              alt="CITNC Logo" 
               className="h-12 w-auto"
             />
             <div className="hidden md:block">

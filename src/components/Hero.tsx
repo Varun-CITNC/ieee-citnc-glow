@@ -31,8 +31,7 @@ const Hero = () => {
           </p>
           
           <p className="text-lg text-white/80 mb-12 max-w-2xl mx-auto">
-            Join our vibrant community of tech enthusiasts dedicated to innovation, 
-            collaboration, and professional development.
+            The IEEE Student Branch at Cambridge Institute of Technology North Campus is a vibrant community of engineering students dedicated to fostering innovation, learning, and professional growth. We provide a platform for students to engage with cutting-edge technology, collaborate on projects, and develop leadership skills through IEEE activities and initiatives.
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center">

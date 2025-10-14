@@ -9,6 +9,10 @@ import meenakshi from "@/assets/team/meenakshi.jpg";
 import shreya from "@/assets/team/shreya.jpg";
 import varun from "@/assets/team/varun.jpg";
 import pranitha from "@/assets/team/pranitha.jpg";
+import amith from "@/assets/team/amith.jpg";
+import srushti from "@/assets/team/srushti.jpg";
+import hansika from "@/assets/team/hansika.jpeg";
+import sindhu from "@/assets/team/sindhu.jpg";
 
 const TeamSection = () => {
   const teamMembers = [
@@ -65,22 +69,22 @@ const TeamSection = () => {
     {
       name: "Amith H P",
       designation: "PR Head",
-      image: "",
+      image: amith,
     },
     {
       name: "Srushti T",
       designation: "Membership Dev Chair",
-      image: "",
+      image: srushti,
     },
     {
       name: "Hansika Muralidhar",
       designation: "Jr Creative Lead",
-      image: "",
+      image: hansika,
     },
     {
       name: "Sindhu S",
       designation: "Quality Assurance Lead",
-      image: "",
+      image: sindhu,
     },
   ];
 
