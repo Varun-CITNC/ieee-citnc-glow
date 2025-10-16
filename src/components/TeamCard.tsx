@@ -27,7 +27,7 @@ const TeamCard = ({ name, designation, image, delay = 0 }: TeamCardProps) => {
                 <img
                   src={image}
                   alt={name}
-                  className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110"
+                  className="w-full h-full object-cover object-top scale-125 transition-transform duration-700 group-hover:scale-[1.35]"
                 />
                 
                 {/* Gradient overlay */}
@@ -48,7 +48,7 @@ const TeamCard = ({ name, designation, image, delay = 0 }: TeamCardProps) => {
         </div>
       </DialogTrigger>
       
-      <DialogContent className="sm:max-w-md bottom-0 top-auto translate-y-0 data-[state=open]:slide-in-from-bottom-full data-[state=closed]:slide-out-to-bottom-full">
+      <DialogContent className="sm:max-w-md">
         <div className="flex flex-col items-center space-y-4 p-4">
           <div className="w-32 h-32 rounded-full overflow-hidden ring-4 ring-primary/20">
             <img

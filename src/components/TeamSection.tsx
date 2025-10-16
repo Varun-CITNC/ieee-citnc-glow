@@ -3,7 +3,6 @@ import rajaRam from "@/assets/team/raja-ram.jpeg";
 import gowrish from "@/assets/team/gowrish.jpg";
 import ullas from "@/assets/team/ullas.jpg";
 import sanjana from "@/assets/team/sanjana.jpeg";
-import yashas from "@/assets/team/yashas.jpeg";
 import samuel from "@/assets/team/samuel.jpg";
 import meenakshi from "@/assets/team/meenakshi.jpg";
 import shreya from "@/assets/team/shreya.jpg";
@@ -37,11 +36,6 @@ const TeamSection = () => {
       image: sanjana,
     },
     {
-      name: "Yashas Navale",
-      designation: "Treasurer",
-      image: yashas,
-    },
-    {
       name: "Samuel Lazar",
       designation: "Webmaster",
       image: samuel,
@@ -53,7 +47,7 @@ const TeamSection = () => {
     },
     {
       name: "Shreya S Tavarkhed",
-      designation: "Joint Secretary",
+      designation: "Treasurer",
       image: shreya,
     },
     {
@@ -73,7 +67,7 @@ const TeamSection = () => {
     },
     {
       name: "Srushti T",
-      designation: "Membership Dev Chair",
+      designation: "Membership Development Chair",
       image: srushti,
     },
     {

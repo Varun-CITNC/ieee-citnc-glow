@@ -7,9 +7,7 @@ const EventSchedule = () => {
     "Technical Workshops",
     "Hackathons",
     "Guest Lectures",
-    "Industry Visits",
     "Project Competitions",
-    "Networking Sessions",
     "Skill Development Programs",
   ];
 

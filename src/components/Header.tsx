@@ -24,9 +24,6 @@ const Header = () => {
             <a href="#home" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               Home
             </a>
-            <a href="#benefits" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
-              Benefits
-            </a>
             <a href="#about" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               About
             </a>
@@ -36,11 +33,11 @@ const Header = () => {
             <a href="#team" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               Team
             </a>
-            <a href="#contact" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
-              Contact
+            <a href="#benefits" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+              Benefits
             </a>
             <Button size="sm" className="bg-primary hover:bg-primary-glow" asChild>
-              <a href="#contact">Join Us</a>
+              <a href="#benefits">Join Us</a>
             </Button>
           </nav>
           
