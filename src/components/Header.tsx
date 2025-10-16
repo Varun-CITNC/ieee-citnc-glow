@@ -14,13 +14,8 @@ const Header = () => {
               alt="IEEE Logo" 
               className="h-12 w-auto"
             />
-            <img 
-              src={citncLogo} 
-              alt="CITNC Logo" 
-              className="h-12 w-auto"
-            />
             <div className="hidden md:block">
-              <h1 className="text-lg font-bold text-foreground">IEEE Student Branch CITNC</h1>
+              <h1 className="text-lg font-bold text-foreground">IEEE Student Branch</h1>
               <p className="text-xs text-muted-foreground">Cambridge Institute of Technology North Campus</p>
             </div>
           </div>
@@ -28,6 +23,9 @@ const Header = () => {
           <nav className="hidden md:flex items-center gap-6">
             <a href="#home" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               Home
+            </a>
+            <a href="#benefits" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+              Benefits
             </a>
             <a href="#about" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               About
@@ -41,8 +39,8 @@ const Header = () => {
             <a href="#contact" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               Contact
             </a>
-            <Button size="sm" className="bg-primary hover:bg-primary-glow">
-              Join Us
+            <Button size="sm" className="bg-primary hover:bg-primary-glow" asChild>
+              <a href="#contact">Join Us</a>
             </Button>
           </nav>
           

@@ -37,7 +37,7 @@ const Contact = () => {
               <MapPin className="h-6 w-6 text-primary group-hover:text-primary-foreground" />
             </div>
             <h3 className="font-semibold text-foreground mb-2">Location</h3>
-            <p className="text-sm text-muted-foreground">Cambridge Institute of Technology NC</p>
+            <p className="text-sm text-muted-foreground">Cambridge Institute of Technology North Campus, Kundana, Bangalore-562110</p>
           </Card>
         </div>
       </div>

@@ -22,32 +22,22 @@ const Hero = () => {
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             IEEE Student Branch
-            <br />
-            <span className="text-white/90">CITNC</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-2xl mx-auto">
             Cambridge Institute of Technology North Campus
-          </p>
-          
-          <p className="text-lg text-white/80 mb-12 max-w-2xl mx-auto">
-            The IEEE Student Branch at Cambridge Institute of Technology North Campus is a vibrant community of engineering students dedicated to fostering innovation, learning, and professional growth. We provide a platform for students to engage with cutting-edge technology, collaborate on projects, and develop leadership skills through IEEE activities and initiatives.
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center">
             <Button 
               size="lg" 
               className="bg-white text-primary hover:bg-white/90 shadow-lg group"
+              asChild
             >
-              Join Us Today
-              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-white/30 text-white hover:bg-white/10"
-            >
-              Learn More
+              <a href="#contact">
+                Join Us Today
+                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
           </div>
         </div>
